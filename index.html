@@ -6,6 +6,8 @@
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	<link rel="stylesheet" href="public/css/base.css">
 	<link rel="stylesheet" href="css/shortcut.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/fs.css">
 	<script src="js/jquery-3.2.0.js"></script>
 	<script src="js/index.js"></script>
 </head>
@@ -65,7 +67,7 @@
 			<!-- 导航栏左侧 -->
 			<ul class="fr">
 				<li>
-					<a href="#">你好，请登录</a>&nbsp;&nbsp;<a href="#" style="color: #f10215;">免费注册</a>
+					<a href="#">你好，请登录</a>&nbsp;&nbsp;<a href="#" class="style-red">免费注册</a>
 				</li>
 				<li class="spacer"></li>
 				<li>
@@ -291,16 +293,106 @@
 				</li>
 			</ul>
 		</div>
-
 	</div>
 	<div id="header">
 		<div class="w">
-			<div id="logo"></div>
-			<div id="search"></div>
-			<div id="settleup"></div>
-			<die id="hotwords"></die>
-			<div id="navitems"></div>
+			<div id="logo"> 
+				<h1 class="logo_tit">
+					<a href="#" class="logo_tit_lk">京东</a>
+				</h1>
+
+			</div>
+			<div id="search">
+				<div class="search-m">
+					<div class="form">
+						<input type="text" class="text" value="蛋白粉">
+						<span class="photo-search-btn">
+							<i class="iconfont">&#xe657;</i>
+						</span>
+						<button class="button">
+							<i class="iconfont">&#xe601;</i>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div id="settleup" class="dropdown">
+				<div class="cw-icon">
+					<i class="iconfont">&#xe600;</i>
+					<a href="">我的购物车</a>
+					<i class="ci-count">0</i>
+				</div>
+				<div class="dropdown-layer">
+					<div class="cart_empty">
+						<i class="cart_empty_img"></i>
+						           购物车中还没有商品，赶紧选购吧！        
+					</div>	
+				</div>
+			</div>
+			<die id="hotwords">
+				<a href="#" class="style-red">300减15</a>
+				<a href="#">乳清蛋白粉</a>
+				<a href="#">肌酸</a>
+				<a href="#">氮泵</a>
+				<a href="#">BCAA</a>
+				<a href="#">蛋白棒</a>
+				<a href="#">佳得乐</a>
+				<a href="#">肌肉科技</a>
+				<a href="#">欧普特蒙</a>
+			</die>
+			<div id="navitems">
+				<ul id="navitems-group1">
+					<li><a href="#">秒杀</a></li>
+					<li><a href="#">优惠券</a></li>
+					<li><a href="#">闪购</a></li>
+					<li><a href="#">拍卖</a></li>
+				</ul>
+				<div class="spacer">
+				</div>
+				<ul id="navitems-group1">
+					<li><a href="#">服装城</a></li>
+					<li><a href="#">京东超市</a></li>
+					<li><a href="#">生鲜</a></li>
+					<li><a href="#">全球购</a></li>
+				</ul>
+				<div class="spacer"></div>
+				<ul id="navitems-group1">
+					<li><a href="#">京东金融</a></li>
+				</ul>
+			</div>
+			<div id="treasure">
+				<a href="#" class="promo_lk"></a>
+			</div>
 		</div>
+	</div>
+	<div id="fs">
+		<div class="grid_c1 fs_inner">
+			<div class="fs_col1">
+				<div class="cate">
+		  		  <ul class="cate_menu">
+			     	<li class="cate_menu_item"><a href="">家用电器</a></li>
+					<li class="cate_menu_item"><a href="">手机</a><span>/</span><a href="">运营商</a> <span>/</span> <a href="">数码</a></li>
+					<li class="cate_menu_item"><a href="">电脑<span>/</span>办公</a></li>
+					<li class="cate_menu_item"><a href="">家居</a><span>/</span><a href="">家具</a><span>/</span><a href="">家装</a>  <span>/</span>  <a href="">厨具</a></li>
+					<li class="cate_menu_item"><a href="">男装</a><span>/</span> <a href="">女装 </a><span>/</span><a href="">童装</a> <span>/</span> <a href="">内衣</a></li>
+					<li class="cate_menu_item"><a href="">美装个护</a> <span>/</span> <a href="">宠物</a></li>
+					<li class="cate_menu_item"><a href="">女鞋</a> <span>/</span> <a href="">箱包</a> <span>/</span> <a href="">钟表</a> <span>/</span> <a href="">珠宝</a></li>
+					<li class="cate_menu_item"><a href="">男鞋</a> <span>/</span> <a href="">运动</a> <span>/</span><a href="">户外</a> </li>
+					<li class="cate_menu_item"><a href="">汽车</a><span>/</span> <a href="">汽车用品</a> </li>
+					<li class="cate_menu_item"><a href="">母婴</a><span>/</span> <a href="">玩具乐器</a> </li>
+					<li class="cate_menu_item"><a href="">食品</a> <span>/</span> <a href="">酒类</a><span>/</span> <a href="">生鲜</a><span>/</span> <a href="">特产</a></li>
+					<li class="cate_menu_item"><a href="">医药保健</a>
+					<span>/</span><a href="">计生情趣</a></li>
+					<li class="cate_menu_item"><a href="">图书</a><span>/</span> <a href="">音像</a><span>/</span><a href="">电子书</a></li>
+					<li class="cate_menu_item"><a href="">机票</a><span>/</span><a href="">酒店</a><span>/</span> <a href="">旅游</a> <span>/</span><a href="">生活</a> </li>
+					<li class="cate_menu_item"><a href="">理财</a> <span>/</span> <a href="">众筹 </a><span>/</span> <a href="">白条</a> <span>/</span> <a href="">保险</a></li>
+		         </ul>
+				</div>
+			</div>	
+			<div class="fs_col2"></div>
+			<div class="fs_col3"></div>
+			
+		</div>
+		<div></div>
 	</div>
 </body>
 </html>

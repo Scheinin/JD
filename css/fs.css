@@ -1,0 +1,49 @@
+#fs, .fs_inner {
+	position: relative;
+}
+.grid_c1 {
+	width: 1190px;
+	margin: 0 auto;
+}
+#fs {
+
+}
+.fs_inner {
+	height: 480px;
+	background-color: #f6f6f6;
+}
+.fs_col1, .fs_col2{
+	float: left;
+	height: 100%;
+}
+.fs_col1{
+	width: 190px;
+	padding-right: 10px;
+}
+.fs_col3 {
+	float: right;
+}
+.cate_menu{
+	background: #6e6568;
+	height: 450px;
+	padding: 15px 0;
+}
+.cate_menu li {
+	padding-left: 12px;
+}
+.cate_menu li span {
+	padding: 0 2px;
+}
+.cate_menu li:hover {
+	background-color: #999;
+}
+.cate_menu li a:hover {
+	color: #c81623;
+}
+.cate_menu li a, .cate_menu li span{
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+

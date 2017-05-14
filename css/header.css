@@ -1,0 +1,192 @@
+#header .w{
+	position: relative;
+	height: 140px;
+}
+#logo {
+	position: absolute;
+	top: -30px;
+	left: 0;
+	width: 190px;
+	height: 170px;
+	background-color: #fff;
+	box-shadow: 0 -5px 10px rgba(0,0,0,.2);
+}
+.logo_tit {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.logo_tit_lk {
+	display: block;
+	width: 190px;
+	height: 170px;
+	background: url(../img/logo.png) no-repeat;
+	text-indent: -99999px;
+}
+.search-m{
+	position: relative;
+	height: 60px;
+}
+.search-m .form {
+    position: absolute;
+    left: 320px;
+    top: 25px;
+    width: 560px;
+    height: 35px;
+}
+.search-m .text {
+	width: 490px;
+	height: 25px;
+	border: 1px solid #f10215;
+	padding: 4px;
+	outline: none;
+	font-size: 14px;
+	line-height: 25px;
+	color: #989898;
+}
+.search-m .photo-search-btn {
+	position: absolute;
+	right: 65px;
+	top: 2px;
+}
+.search-m .photo-search-btn .iconfont {
+	font-size: 22px;
+}
+.search-m .photo-search-btn .iconfont:hover {
+	cursor: pointer;
+	color: #f10215;
+}
+.search-m .button {
+	width: 50px;
+	height: 35px;
+	position: absolute;
+	border:none;
+	background-color: #f10215;
+	outline: none;
+	cursor: pointer;
+}
+.search-m .button .iconfont {
+	font-size: 20px;
+	color: #fff;
+	font-weight: 700;
+}
+#settleup {
+	position: absolute;
+	right: 99px;
+	top: 27px;
+	border: 1px solid #e3e4e5;
+
+
+}
+
+#settleup .cw-icon{
+	width: 188px;
+	height: 33px;
+	background: #fff;
+	text-align: center;
+	line-height: 33px;
+	position: relative;
+	z-index: 1;
+}
+#settleup .cw-icon:hover{
+
+}
+#settleup .cw-icon .iconfont {
+	font-size: 16px;
+	color: #f10214;
+}
+#settleup .cw-icon a {
+	color: #f10214;
+}
+#settleup .ci-count {
+	background-color: #f10215;
+	width: 12px;
+	display: inline-block;
+	color: #fff;
+	border-radius: 7px;
+	line-height: 14px;
+	position: absolute;
+	top: 5px;
+	left: 140px;
+}
+#settleup .cart_empty{
+	height: 49px;
+    padding: 10px 0;
+    text-align: center;
+    line-height: 49px;
+    overflow: hidden;
+    color: #999;
+	
+
+
+}
+#settleup .dropdown-layer {
+	width: 308px;
+	right: 0;
+	top: 33px;
+	border: 1px solid #ccc;
+	
+
+}
+#settleup .cart_empty_img {
+	display: inline-block;
+	width: 59px;
+	height: 49px;
+	background: url(../img/nocart.png);
+	vertical-align: middle;
+
+}
+#hotwords {
+	position: absolute;
+	left: 320px;
+	top: 65px;
+	width: 550px;
+	height: 20px;
+	line-height: 20px;
+}
+#hotwords a {
+	margin-right: 10px;
+}
+#navitems {
+	position: absolute;
+	left: 200px;
+	bottom: 0;
+	width: 790px;
+	height: 40px;
+}
+#navitems .spacer, #navitems li, #navitems ul{
+	float: left;
+}
+#navitems li {
+	margin-left: 30px;
+}
+#navitems a {
+	font-size: 16px;
+	color: #555;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	font-weight: 700;
+}
+#navitems a:hover {
+	color: #c81623;
+}
+#navitems .spacer {
+	width: 1px;
+	height: 10px;
+	background-color: #ccc;
+	margin: 15px -10px 0 20px;
+}
+#treasure {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 190px;
+	height: 40px;
+}
+#treasure a {
+	display: block;
+	width: 190px;
+	height: 40px;
+	background: url(../img/treasure.jpg) no-repeat;
+}
