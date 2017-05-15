@@ -22,6 +22,9 @@
 }
 .fs_col3 {
 	float: right;
+	width: 190px;
+	height: 100%;
+	background-color: #fff;
 }
 .cate_menu{
 	background: #6e6568;
@@ -46,4 +49,128 @@
 	line-height: 30px;
 	font-size: 14px;
 }
+#slider_main {
+	position: relative;
+	width: 790px;
+	height: 340px;
+	overflow: hidden;
+}
+#slider_main:hover .arrow{
+	display: block;
+}
+#list {
+	position: absolute;
+	z-index: 1;
+	width: 6320px;
+	height: 340px;
+}
+#list img{
+	float: left;
+	width: 790px;
+	height: 340px;
+}
+#buttons {
+	position: absolute;
+	z-index: 2;
+	left: 295px;
+	bottom: 20px;
+	height: 12px;
+	padding: 4px 8px;
+    border-radius: 12px;
+    background-color: hsla(0,0%,100%,.3);
+}
+#buttons li {
+	display: inline;
+	float: left;
+	width: 12px;
+	height: 12px;
 
+	border-radius: 50%;
+	background-color: #fff;
+	margin-right: 10px;
+	cursor: pointer;
+}
+#buttons .on {
+	background: #c81623;
+}
+.arrow {
+	position: absolute;
+	z-index: 2;
+	width: 30px;
+	height: 60px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0,0,0,.1);
+	cursor: pointer;
+	top: 140px;
+	display: none;
+}
+.arrow:hover {
+	color: #fff;
+	background-color: rgba(0,0,0,.6);
+}
+#next {
+	right: 0;
+}
+.slider_extend {
+	height: 130px;
+}
+.slider_bi {
+	width: 390px;
+	height: 130px;
+	float: left;
+	margin: 10px 10px 0 0;
+	
+}
+.user {
+	height: 115px;
+	border-bottom: 1px solid #e6e6e6;
+	padding: 0 10px;
+}
+.user_info{
+	position: relative;
+	padding: 15px 0 15px 60px;
+	height:45px;
+}
+.user_info_avatar{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	margin-left: -60px;
+}
+.user_info_avatar img {
+	height: 100%;
+	border-radius: 23px;
+}
+.user_info_show p{
+
+	margin-top: 3px;
+}
+.user_info_show a {
+	margin-right: 5px;
+	color: #000;
+}
+.user_info_show a:hover{
+	color:#c81623;
+}
+.user_profit{
+	height: 24px;
+
+}
+.user_profit a {
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	border: 2px solid #e01222;
+	line-height: 20px;
+	text-align: center;
+	margin-right: 5px;
+	color: #e01222;
+}
+.user_profit a:hover{
+    background-color:#e01222;
+    color:#fff;	
+}
