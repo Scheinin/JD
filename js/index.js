@@ -34,9 +34,29 @@ $(function() {
 		$(this).css('border','1px solid #e3e4e5');
 		}
 	)
+	//公告栏
+	
 
 
+		$('.mod_tab_head_item').hover(function() {
+		if($('.news_tab_active').css('transform') == 'matrix(1, 0, 0, 1, 0, 0)'){
+			$('.news_tab_active').css('transform','matrix(1, 0, 0, 1, 52, 0)')
+			
+		}
+		else { $('.mod_tab_head_item').hover(function() {
+			if($('.news_tab_active').css('transform') == 'matrix(1, 0, 0, 1, 52, 0)'){
+			$('.news_tab_active').css('transform','matrix(1, 0, 0, 1, 0, 0)')
+			
+		}
+		})}
 
+	})	
+	
+	
+	
+
+
+		
 
 	
 
