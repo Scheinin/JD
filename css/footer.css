@@ -1,0 +1,125 @@
+#footer {
+	height: 500px;
+	background-color: #eaeaea;
+}
+.mod_service {
+	padding: 30px 0;
+	border-bottom: 1px solid #dedede;
+}
+.mod_service_list{
+	height: 42px;
+}
+.mod_service_item{
+	float: left;
+	width: 297px;
+}
+.mod_service_unit {
+	position: relative;
+	width: 180px;
+	padding-left: 45px;
+	margin: 0 auto;
+}
+.mod_service_tit{
+	position: absolute;
+	width: 36px;
+	height: 42px;
+	background-image: url(../img/ico_service.png);
+	text-indent: -99999px;
+	left: 0;
+}
+.mod_service_duo {
+    background-position: 0 0;
+}
+.mod_service_kuai {
+    background-position: 0 -43px;
+}
+.mod_service_hao {
+    background-position: 0 -86px;
+}
+.mod_service_sheng {
+    background-position: 0 -129px;
+}
+.mod_service_txt{
+	font-size: 18px;
+	font-weight: bold;
+	color: #444;
+	height: 42px;
+	line-height: 42px;
+
+}
+.mod_help{
+	padding: 20px 0;
+}
+.mod_help_list {
+	height: 160px;
+}
+.mod_help_nav {
+	float: left;
+	width: 198px;
+	line-height: 22px;
+}
+.mod_help_nav_tit {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.mod_help_cover {
+	float: right;
+	width: 200px;
+	height: 150px;
+	background: url(../img/ico_footer.png);
+}
+.mod_help_cover_tit {
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+.mod_help_cover_con{
+	padding: 0 10px;
+}
+.mod_help_cover_more{
+	text-align: right;
+}
+.mod_copyright_inner{
+	padding: 15px 0;
+	border-top: 1px solid #e1e1e1;
+	text-align: center;
+}
+.mod_copyright_likns a {
+	color: #666;
+}
+.mod_copyright_likns a:hover{
+	color: #c81623;
+}
+.mod_copyright_split {
+    margin: 0 10px;
+    color: #ccc;
+}
+.mod_copyright_info{
+	padding: 10px 0;
+	line-height: 22px;
+	color: #999;
+}
+.mod_copyright_auth_ico {
+	display: inline-block;
+	width: 103px;
+	height: 32px;
+	background: url(../img/ico_footer.png);
+}
+.mod_copyright_auth_ico_1 {
+    background-position: 0 -151px;
+}
+.mod_copyright_auth_ico_2 {
+    background-position: -104px -151px;
+}
+.mod_copyright_auth_ico_3 {
+    background-position: 0 -184px;
+}
+.mod_copyright_auth_ico_4 {
+    background-position: -104px -184px;
+}
+.mod_copyright_auth_ico_5 {
+    background-position: 0 -217px;
+}
+.mod_copyright_auth_ico_6 {
+    background-position: -104px -217px;
+}
