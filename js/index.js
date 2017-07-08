@@ -54,28 +54,24 @@ $(function() {
 				aContent[this.index].style.display = 'block';
 			}
 		}
-		//工具栏
-		$('.jdm_toolbar_tab').mouseover(function() {
-			// console.dir($(this).children()[1]);
-			var obj=$(this).children()[1];
-			$(obj).stop().animate({
+		// //工具栏
+		$('.jdm_toolbar_tab').mouseover(function() {//给这个标签绑定鼠标移入事件
+			var obj=$(this).children()[1];//obj用来保存当前鼠标移入的第二个子元素
+			$(obj).stop().animate({ //将dom对象转换成jquery对象
 
 				left: '-61px'
 
 			})
-		})
-		$('.jdm_toolbar_tab').mouseout(function() {
-			// console.dir($(this).children()[1]);
-			var obj=$(this).children()[1];
-			$(obj).stop().animate({
-
-				left: '61px'
-
 			})
-		})
+			$('.jdm_toolbar_tab').mouseout(function() {
+				var obj=$(this).children()[1];
+				$(obj).stop().animate({
 
+					left: '61px'
 
-		
+				})
+			})
+
 
 	
 
